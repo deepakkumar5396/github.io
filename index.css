@@ -1,0 +1,176 @@
+.navbar-inverse {
+	background-color:#E8E8E8 !important;
+    border-color: transparent !important;
+    height:65px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color:black !important;
+}
+.navbar
+{
+	margin-bottom: 0px;
+}
+
+.navbar-inverse .navbar-nav>li {
+	background-color:rgb(232,232,232,0.3) !important;
+	height:65px;
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    overflow:hidden;
+    position:relative;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover
+{  
+	background-color:#DCDCDC !important;
+}
+
+.navbar-inverse .navbar-nav>li>a:active
+{  
+	background-color:#DCDCDC !important;
+}
+
+.container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 150px;
+  right: 350;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size:70px;
+}
+
+.heading
+{
+	font-size:30px;
+	text-align:center;
+	padding:5px;
+	font-weight:bold;
+	color:white;
+}
+.para
+{
+	font-size:20px;
+	text-align:left;
+	padding:20px;
+	color:white;
+	margin-left:60px;
+	background-color:rgba(232,232,232,0.1);
+	
+	
+}
+.highlight {
+  /* Yellow background color */
+  font-weight: bold;         /* Bold text */
+  color:white;               /* Black text color */
+  padding: 2px;              /* Padding to separate the highlighted text */
+}
+
+hr.new{
+  border: 1px solid black;
+  border-color:white;
+}
+.block{
+  border:2px solid grey;
+  border-radius:5px;
+  box-shadow: 2px 2px 2px 2px rgb(192,192,192);
+  margin:20px;
+  background-color:rgba(232,232,232,0.1);
+  color:white;
+  font-size:20px;
+	text-align:center;
+	padding:20px;
+    
+}
+body
+{
+	background-image:url("back.jpg");
+}
+
+.footer
+{
+	background-color:rgba(232,232,232,0.3);
+	
+	padding:40px;
+	color:white;
+	margin:-10px;
+}
+
+.tr
+{
+    color:White;
+    font-size:45px;
+    margin:5px;
+}
+
+.project
+{ 
+ box-sizing: border-box;
+}
+
+.pre{
+	height:300px;
+	width:80%;
+	padding:20px;
+}
+
+
+
+/* Style the tab */
+.tab {
+  border: 1px solid #ccc;
+  background-color:#DCDCDC;
+  width: 100%;
+  margin-right:-80px;
+  
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color:#DCDCDC;
+  padding:22px 15px;
+  color: black;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color:white ;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color:white ;
+}
+
+/* Style the tab content */
+.tabcontent {
+  
+  color: white;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 100%;
+  display: none;
+  background-color:rgba(232,232,232,0.3);
+  margin-top:10px;
+}
+
+/* Clear floats after the tab */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
